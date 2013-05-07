@@ -36,7 +36,7 @@ Capybara.app_host = "http://www.google.com"
 
 describe Array do
 		it "can be created with no arguments" do
-				Array.new.must_be_instance_of String #Array
+				Array.new.must_be_instance_of Array
 		end
 
 		it "can be created with a specific size" do
